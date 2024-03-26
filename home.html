@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido al Conversor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container-img">
+        <img src="https://user-images.githubusercontent.com/121910576/257302088-d2a9edb6-75e5-4118-aaba-6f53da7715dc.png" class="page-logo" alt="">
+    </div>
+
+    <div class="container">
+        <h1>Bienvenido</h1>
+        <p>Conversor es una plataforma que te permite convertir casi todo. Puedes convertir monedas, temperaturas y además años luz a unidades de medidas.</p>
+        <form id="registration-form">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="conversion">Selecciona un tipo de conversión:</label>
+                <select id="conversion" name="conversion">
+                    <option value="moneda" >Moneda</option>
+                    <option value="temperatura">Temperatura</option>
+                    <option value="distancia">Distancia</option>
+                </select>
+            </div>
+            <div class="form-group-button">
+                <button type="submit" id="iniciarBtn">Iniciar</button>
+            </div>
+        </form>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

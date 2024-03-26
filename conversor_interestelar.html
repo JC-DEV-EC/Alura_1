@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor Interestelar</title>
+    <link rel="stylesheet" href="styles_conv_int.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+          Conversor Interestelar, Bienvenido, <span id="username"></span>! 
+        </h1>
+         <img src="https://user-images.githubusercontent.com/121910576/257302088-d2a9edb6-75e5-4118-aaba-6f53da7715dc.png" class="page-logo" alt="">
+    </div>
+    <a href="https://www.aluracursos.com/" target="_blank">
+        <img src="https://www.aluracursos.com/assets/img/home/alura-logo.1686744883.svg" alt="" class="alura-logo">
+    </a>
+
+    <!-- Ventana emergente -->
+    <div id="popup" class="popup">
+        <h2>Conversor Interestelar</h2>
+        <div class="input-container">
+            <label for="fromUnit">De:</label>
+            <select id="fromUnit"></select>
+        </div>
+
+        <div class="input-container">
+            <label for="toUnit">A:</label>
+            <select id="toUnit"></select>
+        </div>
+
+        <div class="input-container">
+            <label for="valor">Valor:</label>
+            <input type="number" id="valor" placeholder="Ingrese el valor">
+        </div>
+
+        <div class="input-container" id="result"></div>
+
+        <div class="input-button">
+            <button id="convertButton">Convertir</button>
+        </div> 
+
+        <!-- Botón para volver al menú -->
+        <div class="input-button">
+            <button id="volverBtn">Volver al menú</button>
+        </div>
+
+    </div>
+
+    <script src="script_conv_int.js"></script>
+</body>
+</html>

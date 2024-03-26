@@ -1,0 +1,108 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Background.png");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+  
+.container {
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+}
+  
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+  
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
+  
+.page-logo {
+    padding: 50px 0 50px 0;
+    width: 450px;
+}
+  
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+  
+body > img {
+    margin: 0 10px;
+}
+  
+img {
+    max-height: 300px;
+}
+
+/* Estilos para la ventana emergente */
+.popup {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #fff;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.input-container {
+    margin: 15px 0 15px 0;
+}
+
+.input-button {
+    padding: 15px 0 15px 0;
+}
+
+/* Estilo para los campos de selección */
+select {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+/* Estilo para el botón */
+#convertButton {
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+#volverBtn {
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}
+
+/* Estilo para el botón al pasar el cursor sobre él */
+#convertButton:hover {
+    background-color: #0056b3;
+}

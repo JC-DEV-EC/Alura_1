@@ -1,0 +1,129 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Background.png");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.page-logo {
+    padding: 50px 0 50px 0;
+    width: 450px;
+}
+
+body > img {
+    margin: 0 10px;
+}
+
+img {
+    max-height: 300px;
+}
+
+.container {
+    text-align: center;
+    display: block;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #fff;
+    background-color: rgb(255 255 255 / 9%);
+    padding: 20px;
+    height: 470px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    margin-bottom: 10px;
+    color: white;
+}
+
+p {
+    margin-bottom: 20px;
+    color: white;
+    font-size: large;
+}
+
+.form-group {
+    padding: 20px;
+}
+
+.form-group-button {
+    padding: 20px;
+}
+
+.form-group select {
+    width: 100%;
+    text-align: center;
+    padding: 10px; /* Ajustamos el espaciado interno */
+    font-size: 14px; /* Disminuimos un poco el tamaño del texto */
+    border-radius: 5px;
+    margin-top: 5px; /* Añadimos un pequeño espacio superior */
+    background-color: white; /* Hacemos el fondo del select transparente */
+
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    padding: 10px 0 10px 0;
+    color: white;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px 0 8px 0;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4d94ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0066cc;
+}
+
+#converter-options {
+    display: none;
+    margin-top: 50px;
+}
+
+.converter-option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.converter-option img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.converter-option:hover {
+    background-color: #f0f0f0;
+}
+
+.arrow {
+    font-size: 24px;
+    text-decoration: none;
+    color: #000;
+}
