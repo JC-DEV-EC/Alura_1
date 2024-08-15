@@ -1,39 +1,73 @@
-# Alura_1
-# Conversores Web
+# Conversor de Unidades
 
-Este repositorio contiene diferentes sitios web de conversión desarrollados para convertir entre diferentes tipos de unidades, como monedas, temperaturas y medidas interestelares. Cada sitio web tiene su propia funcionalidad específica y se presenta a continuación.
+![Licencia MIT](https://img.shields.io/badge/licencia-MIT-blue.svg)
+![Estado del Proyecto](https://img.shields.io/badge/estado-finalizado-green.svg)
+![Versión](https://img.shields.io/badge/versión-1.0.0-brightgreen.svg)
 
-## Conversor de Monedas
+![Logo](https://user-images.githubusercontent.com/121910576/257302088-d2a9edb6-75e5-4118-aaba-6f53da7715dc.png)
 
-Este sitio web te permite convertir entre diferentes monedas utilizando tasas de cambio predefinidas. Puedes seleccionar la moneda de origen y la moneda de destino, ingresar la cantidad que deseas convertir y ver el resultado. Además, muestra el equivalente en Bitcoin para la cantidad convertida.
+**Conversor de Unidades** es una aplicación web que ofrece herramientas para convertir entre diferentes unidades de medida, incluyendo temperatura, moneda y distancia. La aplicación proporciona una interfaz moderna y amigable, diseñada para ofrecer una experiencia de usuario fluida y eficiente.
 
-## Conversor de Temperatura
+## 🚀 Descripción
 
-El Conversor de Temperatura te permite convertir entre Celsius, Fahrenheit y Kelvin. Puedes seleccionar la unidad de temperatura de origen y la unidad de destino, ingresar el valor de temperatura y obtener el resultado de la conversión.
+La aplicación presenta:
+- **Conversión de Temperatura**: Entre Celsius, Fahrenheit y Kelvin.
+- **Conversión de Moneda**: Herramientas básicas para la conversión entre diferentes monedas.
+- **Conversión de Distancia**: Opciones para convertir entre diversas unidades de distancia.
+- **Interfaz Atractiva**: Diseño con un fondo personalizado y botones estilizados para una mejor experiencia visual.
 
-## Conversor Interestelar
+## 🛠️ Tecnologías Utilizadas
 
-Este sitio web es un Conversor Interestelar que te permite convertir valores entre diferentes unidades de medida utilizadas en el espacio interestelar, como kilómetros, millas, metros y años luz. Al igual que los otros sitios, te permite seleccionar las unidades de medida de origen y destino, ingresar el valor que deseas convertir y ver el resultado.
+- **HTML**: Estructura del contenido.
+- **CSS**: Diseño y estilo de la página.
+- **JavaScript**: Funcionalidad dinámica y manipulación del DOM.
 
-## Uso
+## 🏗️ Instalación
 
-Cada sitio web tiene una interfaz fácil de usar con opciones de selección y campos de entrada para ingresar los valores. Después de ingresar los datos necesarios, simplemente haz clic en el botón "Convertir" para obtener el resultado de la conversión. Además, cada sitio web tiene un botón "Volver al menú" para regresar a la página principal.
+Para ejecutar este proyecto localmente:
 
-## Tecnologías utilizadas
+1. **Clona el repositorio**:
 
-- HTML, CSS y JavaScript se utilizan en cada sitio web para la estructura, diseño y lógica de la aplicación.
-- LocalStorage se utiliza para almacenar y recuperar el nombre del usuario para personalizar el saludo de bienvenida.
+    ```bash
+    git clone https://github.com/LatinGladiador/Alura_1.git
+    ```
 
-## Créditos
+2. **Navega al directorio del proyecto**:
 
-- Los diseños y lógicas de cada sitio web fueron desarrollados como ejercicios prácticos de aprendizaje.
-- Las imágenes utilizadas en los sitios son de dominio público y se obtuvieron de GitHub.
+    ```bash
+    cd Alura_1
+    ```
 
-## Contribuir
+3. **Abre el archivo `index.html` en tu navegador**.
 
-¡Siéntete libre de contribuir con mejoras a cualquiera de los sitios web! Puedes abrir issues para discutir nuevas características o enviar pull requests con tus cambios propuestos.
+## 🖥️ Uso
 
-## Autor
+1. **Registro**: Completa el formulario de registro con tu nombre y selecciona el tipo de conversión.
+2. **Conversión**: Redirige a la página de conversión correspondiente según la selección.
+3. **Resultados**: Visualiza los resultados de las conversiones en la interfaz principal.
 
-Estos proyectos fueron creados por [Jasser Cedeño]([https://github.com/tu_usuario](https://github.com/LatinGladiador)).
+## 👤 Autor
 
+Este proyecto fue creado y es mantenido por [LatinGladiador](https://github.com/LatinGladiador)
+
+## 🤝 Contribuciones
+
+Las contribuciones son bienvenidas. Para contribuir:
+
+1. **Haz un fork del repositorio**.
+2. **Crea una rama** (`git checkout -b mi-rama`).
+3. **Haz un commit** de tus cambios (`git commit -am 'Añadido algo'`).
+4. **Sube tus cambios** (`git push origin mi-rama`).
+5. **Crea un Pull Request** en GitHub.
+
+## 🙏 Agradecimientos
+
+Inspirado por el curso de [Alura](https://www.alura.com.br/).
+
+## 📜 Licencia
+
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+
+---
+
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
