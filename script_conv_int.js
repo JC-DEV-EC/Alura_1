@@ -70,5 +70,5 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // Manejar clic en el botón "Volver al menú"
 document.getElementById("volverBtn").addEventListener("click", function() {
-    window.location.href = "home.html";
+    window.location.href = "index.html";
 });
